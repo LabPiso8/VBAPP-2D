@@ -8,7 +8,7 @@ Spatial processing is based on the VBAP algorithm developed by Ville Pulkki. VBA
 
 The system relies on the Eigen linear algebra library for matrix operations required by the VBAP gain calculations. In order to successfully compile the project, the Eigen directory must be manually added to the "Header Search Paths" section within the JUCE project configuration. This can be configured in Projucer or directly in the exported IDE project settings. Failure to include the Eigen path will result in compilation errors due to unresolved header dependencies. A C++17-compatible compiler is required.
 
-The project is intended for research, live sound experimentation, immersive audio control, and professional multichannel workflows. Ongoing and future development may include expanded console compatibility, Open Sound Control (OSC) integration, enhanced spatial visualization tools, implementation of Virtual VBAP (VVBAP), and support for three-dimensional spatial control.
+The project is intended for research, live sound experimentation, immersive audio control, and professional multichannel workflows. Ongoing and future development may include expanded console compatibility, enhanced spatial visualization tools and support for three-dimensional spatial control.
 
 This repository is provided as an open technical framework for further development, experimentation, and integration within spatial audio systems.
 
