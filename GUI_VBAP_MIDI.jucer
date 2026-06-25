@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="OAJHew" name="VBAPP 2D" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" headerPath="/Users/gadielbeltran/Documents/eigen-3.4.0">
+  <MAINGROUP id="fuhnFV" name="VBAPP 2D">
+    <GROUP id="{ED635FB0-3D42-55F8-745C-6486D267CC03}" name="Source">
+      <FILE id="BDlYnJ" name="BookLS9.csv" compile="0" resource="1" file="Source/BookLS9.csv"
+            xcodeResource="1"/>
+      <FILE id="S2W7H6" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="qDysza" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="NWCu6v" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+    <FILE id="XKSlSB" name="VBAPP_LOGO.png" compile="0" resource="1" file="Source/VBAPP_LOGO.png"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_animation" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_box2d" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_midi_ci" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" smallIcon="XKSlSB" bigIcon="XKSlSB">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="GUI_VBAP_MIDI" headerPath="C:\Users\gadie_9vymw1k\Documents\OneDrive - Universidad de San Buenaventura - Bogota\Pc\Documentos Gadiel\CNA\eigen-3.4.0"
+                       libraryPath="C:\Users\gadie_9vymw1k\Documents\OneDrive - Universidad de San Buenaventura - Bogota\Pc\Documentos Gadiel\CNA\eigen-3.4.0"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="GUI_VBAP_MIDI" headerPath="C:\Users\gadie_9vymw1k\Documents\OneDrive - Universidad de San Buenaventura - Bogota\Pc\Documentos Gadiel\CNA\eigen-3.4.0"
+                       libraryPath="C:\Users\gadie_9vymw1k\Documents\OneDrive - Universidad de San Buenaventura - Bogota\Pc\Documentos Gadiel\CNA\eigen-3.4.0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_animation" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_midi_ci" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../../../../../../Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX" frameworkSearchPaths="'/Users/gadielbeltran/Library/CloudStorage/OneDrive-UniversidaddeSanBuenaventura-Bogota/Pc/Documentos Gadiel/CNA/Proyecto GUI_VBAP_MIDI/GUI_VBAP_MIDI/eigen-3.4.0'"
+               smallIcon="u8PMY2" bigIcon="u8PMY2">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="GUI_VBAP_MIDI" headerPath="/Users/gadielbeltran/Documents/eigen-3.4.0"
+                       libraryPath="/Users/gadielbeltran/Documents/eigen-3.4.0"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="GUI_VBAP_MIDI" headerPath="/Users/gadielbeltran/Documents/eigen-3.4.0"
+                       libraryPath="/Users/gadielbeltran/Documents/eigen-3.4.0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_animation" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_midi_ci" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../../../../../../Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
